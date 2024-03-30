@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oswald:wght@500&family=Oxanium:wght@300;500;700&family=Poppins:wght@100;200;300;500&family=Roboto:ital,wght@0,100;0,500;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <title>Buscar cep</title>
+</head>
+
+<body>
+
+    <div class="conteiner">
+        <div class="cabecalho">
+            <h3> Preenchimento automático de endereço</h3>
+        </div>
+
+        <div class="titulo"></div>
+        <h1>Formulário</h1>
+
+        <main class="cadastro">
+
+            <form class="form">
+
+                <input type="text" id="cep" name="cep" value="" placeholder="cep">
+
+                <button class="btn" type="button" onclick="buscarEndereco()">buscar cep</button>
+
+                <div id="informacoes">
+                    <p></p>
+                </div>
+            </form>
+
+        </main>
+    </div>
+
+
+    <script src="/assets/script.js"></script>
+
+</html>

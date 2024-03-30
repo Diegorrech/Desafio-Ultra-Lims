@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "roboto";
+    background-color: #1a3136;
+}
+
+.conteiner{
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #e5e6c9;
+    border-radius: 8px;
+   
+}
+
+p{
+    border-bottom: 1px solid;
+    font-size: 22px;
+}
+
+.btn:hover{
+    color: aliceblue;
+    background-color:#1a3136 ;
+    transition: .4s;
+    cursor: pointer;
+    
+}
+
